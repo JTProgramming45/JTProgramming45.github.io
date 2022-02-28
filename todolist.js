@@ -49,7 +49,7 @@ function deleteTodo(e) {
     // e.target.parentElement.remove();
     const todo = item.parentElement;
     todo.classList.add("fall");
-    //at the end of
+    //at the en
     removeLocalTodos(todo);
     todo.addEventListener("transitionend", e => {
       todo.remove();
